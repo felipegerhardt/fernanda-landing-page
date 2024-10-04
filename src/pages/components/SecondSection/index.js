@@ -24,7 +24,7 @@ const SecondSection = () => {
         <div className='flex w-full h-[50rem] px-[12%] py-[7rem] bg-white items-center justify-center'>
             <div className='flex flex-col w-full h-full'>
                 <div className='flex justify-center items-center w-36 bg-gray-300 p-2 rounded-md'>
-                    <p className='text-black font-light tracking-[3px]'>SOBRE MIM</p>
+                    <p className='text-black font-light tracking-[3px]'>SOBRE NÓS</p>
                 </div>
 
                 <div className='flex flex-row w-full items-center justify-between'>
