@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
+import FirstSection from './components/FirstSection'
+import SecondSection from './components/SecondSection'
 
 
 export default function Home() {
@@ -11,9 +13,11 @@ export default function Home() {
         <Head>
 
         </Head>
-        <main className='flex flex-col w-full h-screen '>
+        <main className='flex flex-col w-full'>
           <Navbar/>
           <HeroSection />
+          <FirstSection />
+          <SecondSection />
           
         </main>
       </>

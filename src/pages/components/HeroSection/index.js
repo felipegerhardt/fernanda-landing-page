@@ -1,20 +1,30 @@
 import React from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const HeroSection = () => {
   return (
-    <div className='flex flex-col w-full h-screen items-center justify-center'>
-        <div className='flex flex-col w-full items-center justify-center'>
+    <div className='flex flex-col w-full h-screen items-center justify-start'>
+        <div className='flex flex-col w-full h-screen items-center justify-start'>
 
-            <div className='flex flex-col w-full h-screen absolute bg-[rgba(0,0,0,0.5)]'>
+            <div className='flex flex-col w-full h-full absolute bg-[rgba(0,0,0,0.7)] border-[1px] border-[#3b3b3b]'>
                 <Image className='-z-50' layout="fill" objectFit="fill" alt='building picture' src={require('../../../../public/buildings-photo.jpg')} />
             </div>
 
-            <div className='flex flex-col items-center justify-center z-50'>
+            <div className='flex flex-col w-[800px] h-[95%] text-center items-center justify-center z-50'>
                 <Image src={require('../../../../public/assinatura.png')}/>
-                <p className='text-white text-5xl'>
+                <p className='text-white text-5xl pt-[2rem]'>
                     Solucione seus problemas jurídicos e foque na sua empresa
                 </p>
+
+                <motion.div className='flex items-center justify-center cursor-pointer border-[1px] w-[15rem] p-3 mt-10 rounded-sm
+                bg-gradient-to-tr from-[rgba(255,255,255,0.8)] to-[rgba(255,255,255,0.9)] '
+                    whileHover={{scale:1.02}}>
+                    <p className='text-lg'>
+                        Contratar agora
+                    </p>
+                </motion.div>
+
             </div>
 
         </div>
