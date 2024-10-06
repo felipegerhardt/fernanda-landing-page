@@ -13,15 +13,12 @@ const HeroSection = () => {
 
             <div className='flex flex-col w-[800px] h-[95%] text-center items-center justify-center z-50'>
                 <Image src={require('../../../../public/assinatura.png')}/>
-                <p className='text-white text-5xl pt-[2rem]'>
-                    Solucione seus problemas jurídicos e foque na sua empresa
-                </p>
 
                 <motion.div className='flex items-center justify-center cursor-pointer border-[1px] w-[15rem] p-3 mt-10 rounded-sm
                 bg-gradient-to-tr from-[rgba(255,255,255,0.8)] to-[rgba(255,255,255,0.9)] '
                     whileHover={{scale:1.02}}>
-                    <p className='text-lg'>
-                        Contratar agora
+                    <p className='text-lg text-black'>
+                        Agende uma consulta
                     </p>
                 </motion.div>
 

@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { Montserrat } from '@next/font/google'
+import { Montserrat, Cinzel } from '@next/font/google'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -7,6 +7,7 @@ const montserrat = Montserrat({
   style: ['normal', 'italic'],
   display: 'swap', // Optional to improve loading performance
 });
+
 
 export default function App({ Component, pageProps }) {
   return <div className={montserrat.className} ><Component {...pageProps} /></div>

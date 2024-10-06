@@ -8,20 +8,14 @@ const Navbar = () => {
     <div className='absolute flex w-full z-50 justify-between text-white items-center backdrop-blur-lg 
     bg-gradient-to-tr from-[rgba(1,1,1,0.5)] to-[rgba(1,1,1,0.3)] lg:px-[10%] lg:py-[20px]'>
        
-       <div className='flex w-1/3'>
-            <motion.div className='flex w-min pl-[10%]'
+       <div className='flex w-1/2'>
+            <motion.div className='flex w-min'
             whileHover={{scale:1.05}}>
-                <FiMenu className='cursor-pointer' size={50} color={'white'}/>
+                <FiMenu className='cursor-pointer' size={40} color={'white'}/>
             </motion.div>
         </div>
 
-        <div className='flex w-1/3 items-center justify-center'>
-            <p className='text-xl font-medium'>
-                Alguma frase brega
-            </p>
-        </div>
-
-        <div className='flex w-1/3 justify-end'>
+        <div className='flex w-1/2 justify-end'>
             <motion.div className='flex items-center justify-center cursor-pointer border-[1px] w-[15rem] p-3 rounded-sm
             bg-gradient-to-tr from-[rgba(255,255,255,0.4)] to-[rgba(255,255,255,0.3)] '
                 whileHover={{scale:1.02}}>

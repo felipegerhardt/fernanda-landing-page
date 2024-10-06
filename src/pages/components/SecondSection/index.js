@@ -21,19 +21,19 @@ const SecondSection = () => {
     jurídica aos meus clientes.`
     
     return (
-        <div className='flex w-full h-[50rem] px-[12%] py-[7rem] bg-white items-center justify-center'>
+        <div className='flex w-full px-[12%] py-[7rem] bg-white items-center justify-center'>
             <div className='flex flex-col w-full h-full'>
-                <div className='flex justify-center items-center w-36 bg-gray-300 p-2 rounded-md'>
+                <div className='flex w-fit justify-center items-center px-2 bg-gray-300 p-2 rounded-md'>
                     <p className='text-black font-light tracking-[3px]'>SOBRE NÓS</p>
                 </div>
 
-                <div className='flex flex-row w-full items-center justify-between'>
+                <div className='flex flex-row w-full gap-24 items-center justify-between'>
                     <div className='flex flex-col mt-10 text-black'>
                         <p className='text-3xl'>
                             Conheça mais da Fernanda
                         </p>
                         <div className='w-full mt-10'>
-                            <p className='text-xl whitespace-pre-line'>
+                            <p className='text-md whitespace-pre-line'>
                               {text}
                             </p>
                         </div>

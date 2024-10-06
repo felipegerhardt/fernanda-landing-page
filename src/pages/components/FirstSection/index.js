@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const FirstSection = () => {
 
   const data = [
-      {title: 'Atendimento personalizado', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
+      {title: 'Atendimento para todo o Brasil', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
       {title: 'Atendimento personalizado', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
       {title: 'Atendimento personalizado', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
       {title: 'Atendimento personalizado', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
@@ -16,8 +16,8 @@ const FirstSection = () => {
   ]
 
   return (
-    <div className='flex flex-col w-full h-[50rem] lg:px-[10%] justify-center items-center text-white
-    bg-gradient-to-tr from-[rgba(21,25,32,255)] to-[#02020fcd]'>
+    <div className='flex flex-col w-full lg:px-[10%] py-[5rem] justify-center items-center text-white
+    bg-gradient-to-tr from-[#04272b] to-[#053136]'>
 
       <div className='flex flex-col items-center justify-center'>
 
@@ -41,8 +41,8 @@ const FirstSection = () => {
 
         <div className='flex flex-row items-center justify-start w-[78rem] h-[30rem] gap-4 mt-20 carousel carousel-end'>
           {data.map((info, index) => 
-          <div key={index} className='flex flex-col snap-center carousel-item w-[20rem] h-[20rem] p-10 border-[1px] border-[#414143] rounded-xl bg-[rgba(34,40,47,255)]'>
-            <p className='text-3xl font-medium'>{info.title}</p>
+          <div key={index} className='flex flex-col text-[#04272b] snap-center carousel-item w-[20rem] h-[20rem] p-10 border-[1px] border-[#414143] rounded-xl bg-[white]'>
+            <div className='text-3xl font-medium'>{info.title}</div>
             <p className='mt-10 text-lg'>{info.text}</p>
           </div>
           )}
