@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
-const FirstSection = () => {
+const Diferenciais = () => {
 
   const data = [
       {title: 'Atendimento para todo o Brasil', text: "Acreditamos que a transparência é a base de qualquer relacionamento sólido. Comunicamos de maneira clara e acessível, garantindo que você compreenda plenamente suas opções legais e possa tomar decisões informadas."},
@@ -17,7 +17,7 @@ const FirstSection = () => {
 
   return (
     <div className='flex flex-col w-full lg:px-[10%] py-[5rem] justify-center items-center text-white
-    bg-gradient-to-tr from-[#04272b] to-[#053136]'>
+    bg-gradient-to-tr from-[#143c40] to-[#06292d]'>
 
       <div className='flex flex-col items-center justify-center'>
 
@@ -53,4 +53,4 @@ const FirstSection = () => {
   )
 }
 
-export default FirstSection;
+export default Diferenciais;

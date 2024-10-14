@@ -2,7 +2,7 @@ import React from 'react'
 import { FaHandshakeSimple } from "react-icons/fa6";
 
 
-const ThirdSection = () => {
+const Conquistas = () => {
     const conquistas = [
         {icon: <FaHandshakeSimple size={50}/>, text: "Clientes atendidos" , number: "10"},
         {icon: <FaHandshakeSimple size={50}/>, text: "Clientes atendidos" , number: "10"},
@@ -21,7 +21,7 @@ const ThirdSection = () => {
                     </p>
                     <div className='flex lg:flex-row flex-col gap-10 mt-10'>
                         {conquistas.map((data, index) => 
-                        <div className='bg-gradient-to-br from-[black]/80 to-[gray]/50 rounded-lg w-[20rem] h-[20rem] border-[1px] ' key={index}>
+                        <div className='bg-gradient-to-br from-[black]/80 to-[gray]/50 rounded-lg w-[20rem] h-[20rem] border-[1px]' key={index}>
                         </div>
                         )}
                     </div>
@@ -32,4 +32,4 @@ const ThirdSection = () => {
     )
 }
 
-export default ThirdSection
+export default Conquistas

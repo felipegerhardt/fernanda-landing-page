@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const SecondSection = () => {
+const Sobre = () => {
 
     const text = `Meu nome é Fernanda Romão Gerhardt, sou advogada especialista em Contratos e
     Proteção de Dados Pessoais.
@@ -24,13 +24,13 @@ const SecondSection = () => {
         <div className='flex w-full px-[12%] py-[7rem] bg-white items-center justify-center'>
             <div className='flex flex-col w-full h-full'>
                 <div className='flex w-fit justify-center items-center px-2 bg-gray-300 p-2 rounded-md'>
-                    <p className='text-black font-light tracking-[3px]'>SOBRE NÓS</p>
+                    <p className='text-black font-light tracking-[3px]'>SOBRE A SÓCIA</p>
                 </div>
 
                 <div className='flex flex-row w-full gap-24 items-center justify-between'>
                     <div className='flex flex-col mt-10 text-black'>
                         <p className='text-3xl'>
-                            Conheça mais da Fernanda
+                            Fernanda Romão Gerhardt
                         </p>
                         <div className='w-full mt-10'>
                             <p className='text-md whitespace-pre-line'>
@@ -49,4 +49,4 @@ const SecondSection = () => {
     )
 }
 
-export default SecondSection
+export default Sobre
