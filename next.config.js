@@ -3,7 +3,7 @@
  */
  const nextConfig = {
   output: 'export',
-  basePath: '/fernanda-landing-page'
+  basePath: '/fernanda-landing-page',
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
