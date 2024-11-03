@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
       },
+      dropShadow: {
+        'brightLight': '1px 1px 1px rgba(67, 187, 67, 1)',
+      }
     },
   },
   plugins: [

@@ -5,17 +5,17 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   return (
-    <div className='absolute flex w-full z-50 justify-between text-white items-center backdrop-blur-lg 
-    bg-gradient-to-tr from-[#143c40]/30 to-[#06292d]/30 lg:px-[10%] lg:py-[20px]'>
+    <div className='lg:absolute fixed flex w-full z-50 justify-between text-white items-center backdrop-blur-lg 
+    bg-gradient-to-tr from-[#143c40]/30 to-[#06292d]/30 lg:px-[10%] px-[10%] lg:py-[20px] py-[20px]'>
        
-       <div className='flex w-1/2'>
+       <div className='flex w-fit'>
             <motion.div className='flex w-min'
             whileHover={{scale:1.05}}>
                 <FiMenu className='cursor-pointer' size={40} color={'white'}/>
             </motion.div>
         </div>
 
-        <div className='flex w-1/2 justify-end'>
+        <div className='flex w-fit justify-end'>
             <motion.div className='flex items-center justify-center cursor-pointer border-[1px] w-[15rem] p-3 rounded-sm
             bg-gradient-to-tr from-[rgba(255,255,255,0.4)] to-[rgba(255,255,255,0.3)] '
                 whileHover={{scale:1.02}}

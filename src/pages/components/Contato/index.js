@@ -19,11 +19,11 @@ const Contato = () => {
     return (
         <div className='flex w-full h-[45rem] z-0 py-24 overflow-hidden items-center justify-start bg-white'>
 
-            <div className='absolute overflow-hidden -z-10 flex bg-gray-200 flex-col w-1/3 h-[45rem]'/>
+            <div className='absolute overflow-hidden -z-10 lg:flex hidden bg-gray-200 flex-col w-1/3 h-[45rem]'/>
 
-            <div className='flex w-full h-full items-start justify-start px-[12%] pl-[21%]'>
+            <div className='flex w-full h-full items-start justify-start px-[12%] lg:pl-[21%]'>
 
-                <div className='flex flex-col pl-[35%] h-full px-20 py-32 items-start justify-between'>
+                <div className='flex flex-col lg:pl-[35%] h-full lg:px-20 py-32 items-start justify-between'>
                     <p className='text-black text-4xl font-medium'>
                         Agende uma conversa com nosso time
                     </p>
@@ -31,7 +31,7 @@ const Contato = () => {
                     <div key={i} className='flex flex-row w-fit gap-4 items-center justfy-center text-black cursor-pointer'
                         >
                         {canal.icon}
-                        <a className='text-lg' onClick={() => i == 0 ? open(canal.link) : null}>{canal.info}</a>
+                        <a className='lg:text-lg text-md' onClick={() => i == 0 ? open(canal.link) : null}>{canal.info}</a>
                     </div>
                     )}
                     

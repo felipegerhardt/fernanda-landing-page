@@ -21,24 +21,24 @@ const Sobre = () => {
     jurídica aos meus clientes.`
     
     return (
-        <div className='flex w-full px-[12%] py-[7rem] bg-white items-center justify-center'>
+        <div className='flex w-full lg:px-[12%] px-[10%] py-[7rem] bg-white items-center justify-center'>
             <div className='flex flex-col w-full h-full'>
                 <div className='flex w-fit justify-center items-center px-2 bg-gray-300 p-2 rounded-md'>
                     <p className='text-black font-light tracking-[3px]'>SOBRE A SÓCIA</p>
                 </div>
 
-                <div className='flex flex-row w-full gap-24 items-center justify-between'>
+                <div className='flex lg:flex-row flex-col w-full gap-24  items-center justify-between'>
                     <div className='flex flex-col mt-10 text-black'>
                         <p className='text-3xl'>
                             Fernanda Romão Gerhardt
                         </p>
                         <div className='w-full mt-10'>
-                            <p className='text-md whitespace-pre-line'>
+                            <p className='lg:text-lg text-md whitespace-pre-line'>
                               {text}
                             </p>
                         </div>
                     </div>
-                    <div className='w-[30rem] items-center justify-center'>
+                    <div className='lg:w-[30rem] w-[20rem] items-center justify-center'>
                         <Image className='rounded-2xl drop-shadow-[0_15px_15px_rgba(0,0,0,0.65)]' src={require('../../../../public/linda.jpeg')}/>
                     </div>
                 </div>

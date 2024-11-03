@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <Image className='-z-50' layout="fill" objectFit="fill" alt='building picture' src={require('../../../../public/buildings-photo.jpg')} />
             </div>
 
-            <div className='flex flex-col w-[800px] h-[95%] text-center items-center justify-center z-50'>
+            <div className='flex flex-col lg:w-[800px] w-4/5 h-[95%] text-center items-center justify-center z-30'>
                 <Image src={require('../../../../public/assinatura.png')}/>
 
                 <motion.div className='flex items-center justify-center cursor-pointer border-[1px] w-[15rem] p-3 mt-10 rounded-sm
