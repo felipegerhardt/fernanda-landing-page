@@ -1,3 +1,1 @@
-## Inspiração:
-
-https://jakutisadvogados.com.br/
+Fernanda landing page
