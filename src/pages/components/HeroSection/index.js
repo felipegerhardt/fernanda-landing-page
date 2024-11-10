@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 const HeroSection = () => {
   return (
     <div className='flex flex-col w-full h-screen items-center justify-start'>
+        
         <div className='flex flex-col w-full h-screen items-center justify-start'>
 
             <div className='flex flex-col w-full h-full absolute bg-[rgba(0,0,0,0.7)] border-[1px] border-[#3b3b3b]'>

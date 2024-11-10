@@ -19,7 +19,7 @@ const Solucoes = () => {
   ]
 
   return (
-    <div className='flex w-full px-[12%] py-[7rem] items-center justify-center bg-gradient-to-tr from-[#143c40] to-[#06292d]'>
+    <div id='solucoes' className='flex w-full px-[12%] py-[7rem] items-center justify-center bg-gradient-to-tr from-[#143c40] to-[#06292d]'>
       <div className='flex flex-col w-full h-full'>
           <div className='flex w-fit justify-center items-center px-2 bg-gray-300 p-2 rounded-md'>
               <p className='text-black font-light tracking-[3px]'>SOLUÇÕES</p>

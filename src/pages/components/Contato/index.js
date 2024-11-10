@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { FaWhatsapp, } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { TfiWorld } from "react-icons/tfi";
+import Image from 'next/image';
 
 
 
@@ -17,9 +18,10 @@ const Contato = () => {
     ]
 
     return (
-        <div className='flex w-full h-[45rem] z-0 py-24 overflow-hidden items-center justify-start bg-white'>
+        <div id='contato' className='flex w-full h-[45rem] z-0 overflow-hidden items-center justify-start bg-white'>
 
-            <div className='absolute overflow-hidden -z-10 lg:flex hidden bg-gray-200 flex-col w-1/3 h-[45rem]'/>
+            <div className='absolute overflow-hidden -z-10 lg:flex hidden bg-gradient-to-b from-[#143c40] to-[#06292d] via-[#20565b] bg-gray-200 flex-col w-1/3 h-[45rem]'>
+            </div>
 
             <div className='flex w-full h-full items-start justify-start px-[12%] lg:pl-[21%]'>
 

@@ -21,7 +21,7 @@ const Sobre = () => {
     jurídica aos meus clientes.`
     
     return (
-        <div className='flex w-full lg:px-[12%] px-[10%] py-[7rem] bg-white items-center justify-center'>
+        <div id='sobre' className='flex w-full lg:px-[12%] px-[10%] py-[7rem] bg-white items-center justify-center'>
             <div className='flex flex-col w-full h-full'>
                 <div className='flex w-fit justify-center items-center px-2 bg-gray-300 p-2 rounded-md'>
                     <p className='text-black font-light tracking-[3px]'>SOBRE A SÓCIA</p>
